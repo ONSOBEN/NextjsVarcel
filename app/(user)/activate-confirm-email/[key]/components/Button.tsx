@@ -1,13 +1,13 @@
 import style from "./style.module.css";
 type Props = {
 	title: string;
-	onClick?: () => void;
+	onclick?: () => void;
 	classname?: string;
 };
 
-export default function Button({ title, onClick, classname }: Props) {
+export default function Button({ title, onclick, classname }: Props) {
 	return (
-		<button onClick={onClick} className={`${style.container} ${classname}`}>
+		<button onClick={onclick} className={`${style.container} ${classname}`}>
 			{title}
 		</button>
 	);
