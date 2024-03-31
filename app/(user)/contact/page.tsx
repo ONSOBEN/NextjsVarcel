@@ -15,7 +15,7 @@ export default function page() {
             <div className="divide-y divide-gray-200">
               <div className="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
                 <div className="relative">
-                  <input git remote add origin https://github.com/ONSOBEN/NextjsVarcel.git="off" id="name" name="name" type="text" className="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600" placeholder="Name" />
+                  <input autoComplete="off" id="name" name="name" type="text" className="peer h-10 w-full border-b-2 border-gray-300 text-gray-900 placeholder-transparent focus:outline-none focus:border-rose-600" placeholder="Name" />
                   <label htmlFor="name" className="absolute left-0 -top-3.5 text-gray-600 text-sm light:text-gray-400 dark:text-gray-50 transition-all peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-500 peer-placeholder-shown:top-2 peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Name</label>
                 </div>
                 <div className="relative">
